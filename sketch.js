@@ -1,5 +1,5 @@
 //This is the size of one square
-var scl = 20;
+var scl = 30;
 var snake;
 var food; 
 
@@ -27,6 +27,7 @@ function draw(){
       pickLocation();
    }
 
+   snake.death();
    snake.update();
    snake.show();
 
